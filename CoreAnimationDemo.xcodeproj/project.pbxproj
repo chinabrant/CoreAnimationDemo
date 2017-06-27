@@ -13,6 +13,12 @@
 		9415D8AF1EE6869D00B981ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9415D8AD1EE6869D00B981ED /* Main.storyboard */; };
 		9415D8B11EE6869D00B981ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9415D8B01EE6869D00B981ED /* Assets.xcassets */; };
 		9415D8B41EE6869D00B981ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9415D8B21EE6869D00B981ED /* LaunchScreen.storyboard */; };
+		9415D8BD1EE688EC00B981ED /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9415D8BC1EE688EC00B981ED /* EmitterViewController.m */; };
+		944E0B1C1EF771E00054BEEC /* UIViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E0B1B1EF771E00054BEEC /* UIViewAnimationViewController.m */; };
+		944E0B1F1EF77F800054BEEC /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E0B1E1EF77F800054BEEC /* BasicAnimationViewController.m */; };
+		944E0B221EF77F8B0054BEEC /* KeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E0B211EF77F8B0054BEEC /* KeyFrameAnimationViewController.m */; };
+		944E0B251EF7D6780054BEEC /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E0B241EF7D6780054BEEC /* ProgressViewController.m */; };
+		94E41EBF1EFB954500006C42 /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E41EBE1EFB954500006C42 /* CATransitionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		9415D8B01EE6869D00B981ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9415D8B31EE6869D00B981ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9415D8B51EE6869D00B981ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9415D8BB1EE688EC00B981ED /* EmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
+		9415D8BC1EE688EC00B981ED /* EmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		944E0B1A1EF771E00054BEEC /* UIViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationViewController.h; sourceTree = "<group>"; };
+		944E0B1B1EF771E00054BEEC /* UIViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationViewController.m; sourceTree = "<group>"; };
+		944E0B1D1EF77F800054BEEC /* BasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		944E0B1E1EF77F800054BEEC /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
+		944E0B201EF77F8B0054BEEC /* KeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationViewController.h; sourceTree = "<group>"; };
+		944E0B211EF77F8B0054BEEC /* KeyFrameAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationViewController.m; sourceTree = "<group>"; };
+		944E0B231EF7D6780054BEEC /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		944E0B241EF7D6780054BEEC /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		94E41EBD1EFB954500006C42 /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		94E41EBE1EFB954500006C42 /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +85,18 @@
 				9415D8B21EE6869D00B981ED /* LaunchScreen.storyboard */,
 				9415D8B51EE6869D00B981ED /* Info.plist */,
 				9415D8A41EE6869D00B981ED /* Supporting Files */,
+				9415D8BB1EE688EC00B981ED /* EmitterViewController.h */,
+				9415D8BC1EE688EC00B981ED /* EmitterViewController.m */,
+				944E0B1A1EF771E00054BEEC /* UIViewAnimationViewController.h */,
+				944E0B1B1EF771E00054BEEC /* UIViewAnimationViewController.m */,
+				944E0B1D1EF77F800054BEEC /* BasicAnimationViewController.h */,
+				944E0B1E1EF77F800054BEEC /* BasicAnimationViewController.m */,
+				944E0B201EF77F8B0054BEEC /* KeyFrameAnimationViewController.h */,
+				944E0B211EF77F8B0054BEEC /* KeyFrameAnimationViewController.m */,
+				944E0B231EF7D6780054BEEC /* ProgressViewController.h */,
+				944E0B241EF7D6780054BEEC /* ProgressViewController.m */,
+				94E41EBD1EFB954500006C42 /* CATransitionViewController.h */,
+				94E41EBE1EFB954500006C42 /* CATransitionViewController.m */,
 			);
 			path = CoreAnimationDemo;
 			sourceTree = "<group>";
@@ -151,9 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944E0B1F1EF77F800054BEEC /* BasicAnimationViewController.m in Sources */,
+				944E0B1C1EF771E00054BEEC /* UIViewAnimationViewController.m in Sources */,
+				944E0B221EF77F8B0054BEEC /* KeyFrameAnimationViewController.m in Sources */,
 				9415D8AC1EE6869D00B981ED /* ViewController.m in Sources */,
 				9415D8A91EE6869D00B981ED /* AppDelegate.m in Sources */,
 				9415D8A61EE6869D00B981ED /* main.m in Sources */,
+				9415D8BD1EE688EC00B981ED /* EmitterViewController.m in Sources */,
+				944E0B251EF7D6780054BEEC /* ProgressViewController.m in Sources */,
+				94E41EBF1EFB954500006C42 /* CATransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -312,6 +348,7 @@
 				9415D8BA1EE6869D00B981ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
